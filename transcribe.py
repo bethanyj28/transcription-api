@@ -22,6 +22,3 @@ def get_transcription():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
-# urllib.request.urlretrieve('https://imgur.com/gallery/h2KlKTJ', 'test.jpg')
-
-# print(pytesseract.image_to_string(Image.open('test.jpg')))
